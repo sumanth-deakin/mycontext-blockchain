@@ -79,7 +79,7 @@ sudo ./startFabric.sh
 
 sudo ./createPeerAdminCard.sh
 
-composer-playground
+sudo composer-playground
 
 yo hyperledger-composer:businessnetwork
 
