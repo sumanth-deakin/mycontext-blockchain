@@ -1,7 +1,7 @@
 # MyContext Blockchain
 
 
-To run this project you need to have
+To run this project you need to have one of the following
 
   - Git installed in Windows
   - Ubuntu
