@@ -141,8 +141,8 @@ Hyperledger composer should be up and running in http://localhost:8080
 
 ```sh 
 $ sudo composer archive create -t dir -n .
-$ sudo composer network install --card PeerAdmin@hlfv1 --archiveFile mycontext-blockchain@0.0.3.bna
-$ sudo composer network start --networkName mycontext-blockchain --networkVersion 0.0.3 --networkAdmin admin --networkAdminEnrollSecret adminpw --card PeerAdmin@hlfv1 --file networkadmin.card
+$ sudo composer network install --card PeerAdmin@hlfv1 --archiveFile mycontext-blockchain@0.0.2.bna
+$ sudo composer network start --networkName mycontext-blockchain --networkVersion 0.0.2 --networkAdmin admin --networkAdminEnrollSecret adminpw --card PeerAdmin@hlfv1 --file networkadmin.card
 $ sudo composer card import --file networkadmin.card
 $ sudo composer network ping --card admin@mycontext-blockchain
 $ sudo composer-rest-server
