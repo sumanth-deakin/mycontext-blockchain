@@ -122,6 +122,8 @@ Setup fabric dev servers
 $ cd $HOME
 $ curl -O -k https://hyperledger.github.io/composer/latest/prereqs-ubuntu.sh
 $ mkdir ~/fabric-dev-servers && cd ~/fabric-dev-servers
+$ curl -O https://raw.githubusercontent.com/hyperledger/composer-tools/master/packages/fabric-dev-servers/fabric-dev-servers.tar.gz
+$ tar -xvf fabric-dev-servers.tar.gz
 $ cd ~/fabric-dev-servers
 $ export FABRIC_VERSION=hlfv12
 $ sudo ./downloadFabric.sh
