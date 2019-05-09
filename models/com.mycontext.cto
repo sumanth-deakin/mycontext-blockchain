@@ -20,7 +20,13 @@ namespace com.mycontext
 
 asset MedicalRecord identified by medicalRecordId {
   o String medicalRecordId
-  o String record
+  o String name
+  o String cs_tumor_size
+  o String gender
+  o String cancer_type
+  o String year_of_birth
+  o String price
+  o String others
   --> Owner owner
 }
 
